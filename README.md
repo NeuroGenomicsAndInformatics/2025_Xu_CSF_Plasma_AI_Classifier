@@ -1,4 +1,4 @@
-# CSF_Plasma_Proteomics_AI_Classifier
+# 2025_CSF_Plasma_Proteomics_AI_Classifier
 
 This repository hosts the code and analyses for CSF and Plasma Proteomics AI Classifier: A machine learning framework trained on **cerebrospinal fluid (CSF)** and **plasma** proteomic data to classify major neurodegenerative diseases (AD, PD, FTD, DLB, and controls). The project integrates LightGBM models, differential abundance analysis (DAA), protein co-expression modules, and neuropathological correlations across multiple cohorts including **Knight-ADRC**, **Stanford ADRC**, **MDC**, **Barcelona-1**, **ACE**, **ADNI** and **PPMI** cohorts.
 

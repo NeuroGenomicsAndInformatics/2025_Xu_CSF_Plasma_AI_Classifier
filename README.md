@@ -107,15 +107,15 @@ pheatmap
 Create a fully reproducible environment from the Conda lock-file:
 
 ```bash
-# 1) Clone the repository
+# Clone the repository
 git clone <repo-url>
 cd 2025_Xu_CSF_Plasma_AI_Classifier
 
-# 2) Create & activate Conda env (≈ 2 min)
+# Create & activate Conda env (≈ 2 min)
 conda env create -f environment.yml
 conda activate proteomics_ai
 
-# 3) Launch Jupyter
+# Launch Jupyter
 jupyter notebook
 ```
 
@@ -133,7 +133,6 @@ install.packages(c(
 ```
 
 ---
-
 
 ## 📊 Example Outputs
 
@@ -154,11 +153,11 @@ jupyter notebook Demo/LightGBM_DEMO.ipynb
 
 Expected outputs:
 
-- **LightGBM performance metrics** (confusion matrix, AUC, accuracy)  
-- `SHAP_summary_CSF_AD.png` – global SHAP summary plot  
-- `SHAP_feature_importance_CSF_per_class.png` – per‑class feature‑importance plot  
+- **LightGBM performance metrics** (including confusion matrix, AUC, accuracy)  
+- `SHAP_summary_CSF_AD.png` – SHAP summary plot per disease  
+- `SHAP_feature_importance_CSF_per_class.csv` – per‑class feature‑importance numerical results  
 
-<sub>*All results are already rendered inside the notebook cells, so reviewers can inspect the outputs without rerunning any code.*</sub>
+<sub>*All results are pre‑rendered inside the notebook (shown in the repo root), so reviewers can inspect them without rerunning any code.*</sub>
 
 ---
 

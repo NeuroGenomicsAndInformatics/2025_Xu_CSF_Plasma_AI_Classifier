@@ -36,6 +36,7 @@ This repository hosts the code and analyses for CSF and Plasma Proteomics AI Cla
 
 ---
 
+
 ## 🧠 Study Summary
 
 - **Objective**: To develop and evaluate classifiers predicting neurodegenerative disease probability using CSF and plasma proteomes.
@@ -55,6 +56,39 @@ This repository hosts the code and analyses for CSF and Plasma Proteomics AI Cla
 - **Correlation with neuropathology**: e.g., Braak stage, plaque count, MMSE scores
 
 ---
+
+## 🖥️ System Requirements
+
+| Component | Tested Versions / Notes |
+|-----------|-------------------------|
+| **OS**            | Windows 10/11, Ubuntu 22.04, macOS 13+ |
+| **Python**        | 3.10 (managed by Conda 23.11) |
+| **R**             | 4.3.2 |
+| **Hardware**      | No specialised GPU/TPU required. Benchmarks below on Intel i7‑12700 / 16 GB RAM. |
+
+---
+
+## 🔧 Installation
+
+Create a fully‑reproducible environment from the lock‑file:
+
+```bash
+# 1. Clone
+git clone <repo‑url>
+cd 2025_Xu_CSF_Plasma_AI_Classifier
+
+# 2. Create & activate Conda env  (≈ 2 min)
+conda env create -f environment.yml
+conda activate proteomics_ai
+
+# 3. Launch Jupyter
+jupyter notebook
+
+install.packages(c("limma", "WGCNA", "ggplot2", "dplyr", "pheatmap"))
+```
+
+---
+
 
 ## 📊 Example Outputs
 

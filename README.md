@@ -56,7 +56,7 @@ This repository hosts the code and analyses for CSF and Plasma Proteomics AI Cla
 ## ✅ Key Features
 
 - **Multiclass classification**: AD, PD, FTD, DLB, CO
-- **Cross-cohort testing**: ROSMAP (plasma), Indiana ADCR (plasma), GNPC (CSF/plasma)
+- **Cross-cohort testing**: ROSMAP (plasma), Indiana ADRC (plasma), GNPC (CSF/plasma)
 - **Differential abundance analysis**: Using DAA and volcano plots (CSF_DAA_PUB.R / Plasma_DAA_PUB.R)
 - **PCA and clustering**: Visualize latent protein structure (CSF_PCA_PUB.R / Plasma_PCA_PUB.R)
 - **Protein module selection**: Based on co-expression networks and phenotype associations

@@ -70,14 +70,14 @@ This repository hosts the code and analyses for CSF and Plasma Proteomics AI Cla
 Most notebooks require the following Python packages:
 
 ```bash
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
-lightgbm
-statsmodels
-scipy
+pandas==2.2.2  
+numpy==1.26.4  
+matplotlib==3.9.2  
+seaborn==0.13.2  
+scikit-learn==1.5.1  
+lightgbm==4.5.0  
+statsmodels==0.14.2  
+scipy==1.13.1  
 ```
 
 R scripts require:
